@@ -1,111 +1,104 @@
 <!DOCTYPE HTML>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Weather-app</title>
-		<link rel="stylesheet" href="styles/fortest.css">
-	</head>
 
-	<body>
-        <div class="fundament">
-                <div class="header">
-                    <div class="logoSurgu"> <img src="images/surgu.png" class="imageSurgu" alt="СурГУ"> </div>
-                    <div class="mainText">wherearetheweather inc.</div> 
-                </div>
-                
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Weather-app</title>
+	<link rel="shortcut icon" href="images/icon0.png" type="image/x-icon">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
 
-                <div class="search">
-                    <form action="" method="post">
-						<input type="text" id="send" placeholder="Введите название города" class="searchinPanel">
-					</form>
-                </div>
+<body>
+	<div class="fundament">
+		<div class="header">
+			<div class="mainText">wherearetheweather inc.</div>
+		</div>
 
-                <div class="weather">
-                    <div class="forecast">
-                        <div class="forecast__item">
-                          <div class="forecast__time">Сейчас</div>
-                          <div class="forecast__icon icon__01d"></div>
-                          <div class="forecast__temperature"> --˚</div>
-                        </div>
+		<div class="search">
+			<form action="" method="post">
+				<input type="text" id="send" placeholder="Введите название города" class="searchinPanel">
+			</form>
+		</div>
 
-                        <div class="forecast__item">
-                            <div class="forecast__time"> -- </div>
-                            <div class="forecast__icon icon__09d"></div>
-                            <div class="forecast__temperature"> --˚</div>
-                          </div>
-                  
-                          <div class="forecast__item">
-                            <div class="forecast__time"> -- </div>
-                            <div class="forecast__icon icon__04d"></div>
-                            <div class="forecast__temperature"> --˚</div>
-                          </div>
+		<div class="weather">
+			<div class="forecast">
+				<div class="forecast__item">
+					<div class="forecast__time">Сейчас</div>
+					<div class="forecast__icon icon__01d"></div>
+					<div class="forecast__temperature"> --˚</div>
+				</div>
 
-                          <div class="forecast__item">
-                            <div class="forecast__time"> -- </div>
-                            <div class="forecast__icon icon__13d"></div>
-                            <div class="forecast__temperature"> --˚</div>
-                          </div>
-                  
-                          <div class="forecast__item">
-                            <div class="forecast__time"> -- </div>
-                            <div class="forecast__icon icon__50d"></div>
-                            <div class="forecast__temperature"> --˚</div>
-                          </div>
-                    </div>
+				<div class="forecast__item">
+					<div class="forecast__time"> -- </div>
+					<div class="forecast__icon icon__09d"></div>
+					<div class="forecast__temperature"> --˚</div>
+				</div>
 
-                    <div class="details">
-                        <div class="details__row">
-                          <div class="details__item feelslike">
-                            <div class="details__name">ощущается как</div>
-                            <div class="details__value"> --˚</div>
-                          </div>
-                          <div class="details__item pressure">
-                            <div class="details__name">давление</div>
-                            <div class="details__value"> -- мм. рт. ст.</div>
-                          </div>
-                        </div>
-                        <div class="details__row">
-                          <div class="details__item humidity">
-                            <div class="details__name">влажность</div>
-                            <div class="details__value"> -- %</div>
-                          </div>
-                          <div class="details__item wind">
-                            <div class="details__name">ветер</div>
-                            <div class="details__value"> -- м/с</div>
-                          </div>
-                        </div>
-                    </div>
+				<div class="forecast__item">
+					<div class="forecast__time"> -- </div>
+					<div class="forecast__icon icon__04d"></div>
+					<div class="forecast__temperature"> --˚</div>
+				</div>
 
-                </div>
+				<div class="forecast__item">
+					<div class="forecast__time"> -- </div>
+					<div class="forecast__icon icon__13d"></div>
+					<div class="forecast__temperature"> --˚</div>
+				</div>
 
+				<div class="forecast__item">
+					<div class="forecast__time"> -- </div>
+					<div class="forecast__icon icon__50d"></div>
+					<div class="forecast__temperature"> --˚</div>
+				</div>
+			</div>
 
+			<div class="details">
+				<div class="details__row">
+					<div class="details__item feelslike">
+						<div class="details__name">Ощущается как</div>
+						<div class="details__value"> --˚</div>
+					</div>
+					<div class="details__item pressure">
+						<div class="details__name">Давление</div>
+						<div class="details__value"> -- мм. рт. ст.</div>
+					</div>
+				</div>
+				<div class="details__row">
+					<div class="details__item humidity">
+						<div class="details__name">Влажность</div>
+						<div class="details__value"> -- %</div>
+					</div>
+					<div class="details__item wind">
+						<div class="details__name">Ветер</div>
+						<div class="details__value"> -- м/с</div>
+					</div>
+				</div>
+			</div>
 
+		</div>
 
 
+		<div class="footer">
+			<ul class="nav">
+				<a href="https://vk.com/surgu" target="_blank">
+					<li id="vk"><img class="picture" src="images/logoVk.svg" alt="ВКонтакте"></li>
+				</a>
+				<a href="https://www.facebook.com/surgu.university/" target="_blank">
+					<li id="facebook"><img class="picture" src="images/logoFacebook.svg" alt="Facebook"></li>
+				</a>
+				<a href="https://www.youtube.com/user/SurgutUniversity" target="_blank">
+					<li id="youtube"><img class="picture" src="images/logoYoutube.svg" alt="Youtube"></li>
+				</a>
+				<a href="https://instagram.com/surgu" target="_blank">
+					<li id="instagram"><img class="picture" src="images/logoInstagram.svg" alt="Instagram"></li>
+				</a>
+			</ul>
+		</div>
+	</div>
+</body>
 
-
-
-
-
-                <div class="footer">
-                    <ul class="nav">
-                        <a href="https://vk.com/surgu" target="_blank">
-                            <li id="vk"><img  class="picture" src="images/logoVk.svg" alt="ВКонтакте"></li>
-                        </a>
-                        <a href="https://www.facebook.com/surgu.university/" target="_blank">
-                            <li id="facebook"><img class="picture" src="images/logoFacebook.svg" alt="Facebook"></li>
-                        </a>
-                        <a href="https://www.youtube.com/user/SurgutUniversity" target="_blank">
-                            <li id="youtube"><img class="picture" src="images/logoYoutube.svg" alt="Youtube"></li>
-                        </a>
-                        <a href="https://instagram.com/surgu" target="_blank">
-                            <li id="instagram"><img class="picture" src="images/logoInstagram.svg" alt="Instagram"></li>
-                        </a>
-                    </ul>
-                </div>
-        </div>
-	</body>
-    
 </html>
