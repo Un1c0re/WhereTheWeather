@@ -62,16 +62,17 @@ html {
 
 
 .search {
-	box-sizing: border-box;
+    box-sizing: border-box;
     color: #fff;
 	margin-left: 10%;
 	margin-top: 25px;
 	margin-bottom: 25px;
+
 }
 
 
 .searchinPanel {
-    width: 25%;
+    width: 22%;
     min-width: 190px;
 
 	box-sizing: border-box;
@@ -148,6 +149,8 @@ html {
 
   .details {
 	  text-align: center;
+      margin-top: 5%;
+	  font-size: 1.2em;
   }
 
   .details__row {
@@ -171,7 +174,7 @@ html {
   }
   
   .details__value {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
 
