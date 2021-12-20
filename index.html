@@ -18,8 +18,8 @@
 		</div>
 
 		<div class="search">
-			<form action="" method="post">
-				<input type="text" id="send" placeholder="Введите название города" class="searchinPanel">
+			<form onsubmit="return checkForm(this); start()" class="searchForm">
+				<input type="text" id="name" placeholder="Введите название города" class="searchinPanel">
 			</form>
 		</div>
 
@@ -99,6 +99,7 @@
 			</ul>
 		</div>
 	</div>
+	<script src='js/weather.js'></script>
 </body>
 
 </html>
