@@ -2,7 +2,7 @@ const temperatureUnit = '˚';
 const humidityUnit = ' %';
 const pressureUnit = ' мм. рт. ст.';
 const windUnit = ' м/с';
-const api = 'a33e246c1afb94247350405413d5565e';
+const api = 'there must be yours API';
 var url;
 
 
