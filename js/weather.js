@@ -61,16 +61,8 @@ function getTemperature(value) {
 
 
 function render(data) {
-    renderCity(data);
-
     renderForecast(data);
     renderDetails(data);
-}
-
-
-function renderCity(data) {
-    let cityName = document.querySelector('.searchinPanel');
-    cityName.innerHTML = data.city.name;
 }
 
 
